@@ -1,0 +1,15 @@
+{
+  "name": "stay-online",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stay-online.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tshilidzi Tshivhula",
+  "license": "ISC",
+  "dependencies": {
+    "robotjs": "^0.6.0",
+    "yargs": "^17.7.2"
+  }
+}
