@@ -1,4 +1,4 @@
-# Stay Online
+# @ttshivhula/stay-online
 
 Stay Online is a utility built with Node.js that simulates user activity to prevent the system from recognizing it as idle. It's especially handy if you want to avoid screen locks, sleep mode, or any other inactivity-triggered actions.
 
@@ -12,21 +12,16 @@ Stay Online is a utility built with Node.js that simulates user activity to prev
 ## Installation
 
 1. Ensure you have [Node.js](https://nodejs.org/) installed.
-2. Clone this repository:
+2. Install `@ttshivhula/stay-online` globally:
    ```bash
-   git clone https://github.com/ttshivhula/stay-online.git
-   ```
-3. Navigate to the project directory and install the required dependencies:
-   ```bash
-   cd stay-online
-   npm install
+   npm install -g @ttshivhula/stay-online
    ```
 
 ## Usage
 
 Run the utility with the default settings (moves the mouse every 300 seconds):
 ```bash
-node stay-online.js
+stay-online
 ```
 
 You can customize the behavior with the following options:
@@ -41,7 +36,7 @@ You can customize the behavior with the following options:
 
 To move the mouse in a circular pattern every 10 seconds:
 ```bash
-node stay-online.js -s 10 -c
+stay-online -s 10 -c
 ```
 
 ## Contributing

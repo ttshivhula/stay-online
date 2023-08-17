@@ -1,15 +1,23 @@
 {
-  "name": "stay-online",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@ttshivhula/stay-online",
+  "version": "1.0.1",
+  "description": "A utility to simulate user activity, preventing the system from going idle.",
   "main": "stay-online.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "stay-online": "./stay-online.js"
+  },
+  "preferGlobal": true,
   "author": "Tshilidzi Tshivhula",
   "license": "ISC",
   "dependencies": {
     "robotjs": "^0.6.0",
     "yargs": "^17.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ttshivhula/stay-online.git"
   }
 }
